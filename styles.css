@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2a5298;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #1e3c72;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.nube {
+    color: #1e3c72;
+    font-weight: bold;
+    margin-top: 20px;
+}
