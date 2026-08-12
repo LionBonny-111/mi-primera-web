@@ -46,16 +46,16 @@ https://mi-primera-web-swart-five.vercel.app
 
 ### Repositorio en GitHub
 
-Aquí se evidencia el repositorio público utilizado para almacenar el proyecto.
+https://github.com/LionBonny-111/mi-primera-web
 
 ### Despliegue en Vercel
 
-Aquí se evidencia que la aplicación fue desplegada correctamente en Vercel.
+https://vercel.com/lbdt1/mi-primera-web
 
 ### Página web
 
-Aquí se evidencia el funcionamiento de la página web publicada.
+mi-primera-web-swart-five.vercel.app
 
 ## Autor
 
-Juan Sebastian
+Juan Sebastian Bonilla Leon 
