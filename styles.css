@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 20px;
+    padding: 20px;
 }
 
 .tarjeta {
@@ -23,53 +23,46 @@ body {
     width: 100%;
     max-width: 650px;
     text-align: center;
-    padding: 40px 35px;
+    padding: 45px 30px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
-.foto {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #2a5298;
-    margin-bottom: 20px;
-}
-
 h1 {
     color: #1e3c72;
+    font-size: 36px;
     margin-bottom: 8px;
 }
 
 h2 {
-    color: #555;
-    font-size: 21px;
-    margin-bottom: 8px;
-}
-
-.semestre {
-    color: #2a5298;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-p {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 h3 {
+    color: #2a5298;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.titulo-habilidades {
     color: #1e3c72;
-    margin: 25px 0 15px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .habilidades {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 25px;
 }
@@ -77,9 +70,9 @@ h3 {
 .habilidades span {
     background-color: #e8eef8;
     color: #1e3c72;
-    padding: 8px 14px;
+    padding: 9px 15px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .boton {
@@ -87,20 +80,21 @@ h3 {
     background-color: #1e3c72;
     color: white;
     text-decoration: none;
-    padding: 12px 25px;
+    padding: 13px 25px;
     border-radius: 8px;
     font-weight: bold;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 .boton:hover {
     background-color: #2a5298;
+    transform: translateY(-2px);
 }
 
 .nube {
-    margin-top: 25px;
-    margin-bottom: 0;
     color: #1e3c72;
     font-weight: bold;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 15px;
 }
